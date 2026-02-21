@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-image: url(/assets/backgrounds/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    font-family: "Susu-Jahe",fallback,sans-serif;
+}
+
+h1 {
+    font-size: 86px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+p {
+    font-family: "OLDSH",fallback,'Times New Roman', Times, serif;
+}
+
+h2, p {
+    margin-top: 0px;
+}
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.papertxt {
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin-left: 10px;
+}
+
+.hey {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+
+.enter {
+    margin-top: 74px;
+}
+
+.pinkred {
+    width: 140px;
+    height: 140px;
+}
+
+.blueyellow {
+    width: 160px;
+    height: 160px;
+}
+
+.yellow {
+    position: absolute;
+    transform: translate(-200px, -245px);
+    width: 400px;
+    height: 275px;
+    z-index: -1;
+}

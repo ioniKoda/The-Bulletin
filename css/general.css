@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    cursor: url(/assets/cursors/NormalSelect.cur), auto;
+
+    /* outline: 1px solid red !important;
+    background-color: rgba(255, 0, 0, 0.1) !important; */
+}
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover, a:active, a img:hover {
+    color: #8000ff;
+    text-decoration: none;
+    cursor: url(/assets/cursors/AlternateSelect.cur), pointer;
+}
+
+p, td, li {
+    cursor: url(/assets/cursors/TextSelect.cur), text;
+}
+
+.draggable:hover {
+    cursor: url(/assets/cursors/Move.cur), move;
+}
+
+@font-face {
+    font-family:Susu-Jahe;src:url(/assets/fonts/Susu-Jahe.ttf)
+}
+
+@font-face {
+    font-family:OLDSH;src:url(/assets/fonts/OLDSH___.TTF)
+}
