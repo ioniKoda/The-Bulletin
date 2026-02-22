@@ -1,0 +1,115 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(/assets/backgrounds/grid.jpg);
+	font-family: "Susu-Jahe",fallback,sans-serif;
+}
+
+h1 {
+	font-size: 68px;
+}
+
+h2 {
+	margin-top: -8px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.divider {
+	margin: 20px;
+}
+
+.outline {
+	margin: 1px;
+	font-size: 20px;
+	text-align: center;
+	color: whitesmoke;
+	filter: drop-shadow(1px 1px 0 black) 
+		drop-shadow(-1px 1px 0 black)
+		drop-shadow(1px -1px 0 black)
+		drop-shadow(-1px -1px 0 black);
+}
+
+/* FIZZY */
+
+.vendingmachine {
+	width: 401px;
+	height: 701px;
+	background-image: url(/assets/cliques/fizzy/machine.png);
+}
+
+.vend {
+	margin-top: 44px;
+	margin-left: 50px;
+	height: 470px;
+	width: 230px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.vendingrow {
+	display: flex;
+	justify-content: space-evenly;
+	height: 100px;
+	width: 230px;
+	background-image: url(/assets/cliques/fizzy/shelf.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.bottle {
+	margin-top: 10px;
+}
+
+/* CD */
+
+.cdrow1x {
+	background-image: url(/assets/cliques/cds/albumshelf1x.png);
+}
+
+.cdrow2x {
+	background-image: url(/assets/cliques/cds/albumshelf2x.png);
+}
+
+.cdrow3x{
+	background-image: url(/assets/cliques/cds/albumshelf3x.png);
+}
+
+.cdrow1x, .cdrow2x, .cdrow3x {
+	display: flex;
+	justify-content: space-evenly;
+	height: 104px;
+	width: 330px;
+	margin: 10px;
+	margin-bottom: 120px;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.album {
+	width: 90px;
+}
+
+.album img {
+	height: 80px;
+}
+
+.desc {
+	margin-top: -14px;
+	font-size: 12px;
+}
+
+.artist {
+	font-size: 18px;
+	margin-top: 18px;
+}
+
+.desc, .artist {
+	background-color: rgba(0, 183, 255, 0.459);
+	padding: 4px;
+}
