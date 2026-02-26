@@ -1,0 +1,110 @@
+@font-face {
+    font-family:Chomsky;src: url(/assets/fonts/Chomsky.otf);
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  background-image: url(/assets/backgrounds/bluepaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.paper-stack {
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  width: 1366px;
+  height: 800px;
+}
+
+.image-container-paper {
+  position: absolute;
+  width: 1300px;
+  height: 765px;
+  background: rgb(233, 233, 233);
+  box-sizing: border-box;
+}
+
+.image-container-paper-behind1 {
+  position: absolute;
+  width: 1300px;
+  height: 750px;
+  background: rgb(211, 211, 211);
+  box-sizing: border-box;
+  transform: rotate(3deg);
+  z-index: -1;
+}
+
+.image-container-paper-behind2 {
+  position: absolute;
+  width: 1300px;
+  height: 750px;
+  background: rgb(177, 177, 177);
+  box-sizing: border-box;
+  transform: rotate(5deg);
+  z-index: -2;
+}
+
+.paper-header {
+  font-size: 40px;
+  text-align: center;
+  transform: translate(0%, -200px);
+}
+
+.header-banner {
+  font-size: 25px;
+  text-align: center;
+  background:rgb(29, 29, 29);
+  width: 98%;
+  margin: auto;
+}
+
+h1 {
+  font-family:"Chomsky",fallback,'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  font-weight: normal;
+  transform: translate(0px, 50px)
+}
+
+h3, h2, h5, p, li {
+  font-family:"OLDSH",fallback,'Times New Roman', Times, serif;
+}
+
+h3 {
+  color:rgb(177, 177, 177);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0px;
+  width: 1300px;
+  height: 555px;
+  top: 20%;
+  margin: auto;
+  font-size: 20px;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  margin: auto;
+  padding: 5px;
+  border-bottom: .188em dotted;
+  width: 95%;
+}
+
+.endimage, .image-body {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  padding: 5px;
+}
