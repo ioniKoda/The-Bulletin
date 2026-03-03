@@ -10,9 +10,12 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover, a:active, a img:hover {
+a:hover, a:active {
     color: #8000ff;
     text-decoration: none;
+}
+
+a:hover, a:active, a img:hover, a span:hover {
     cursor: url(/assets/cursors/AlternateSelect.cur), pointer;
 }
 
