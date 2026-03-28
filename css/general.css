@@ -15,7 +15,7 @@ a:hover, a:active {
     text-decoration: none;
 }
 
-a:hover, a:active, a img:hover, a span:hover {
+a:hover, a:active, a img:hover, a span:hover, button:hover {
     cursor: url(/assets/cursors/AlternateSelect.cur), pointer;
 }
 
