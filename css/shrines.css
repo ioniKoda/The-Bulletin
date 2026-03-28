@@ -1,0 +1,111 @@
+body {
+    display: grid;
+    place-items: center;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/backgrounds/wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    font-family:"Susu-Jahe",fallback,sans-serif;
+}
+
+.shrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p, button {
+    font-family: "OLDSH",fallback,'Times New Roman', Times, serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title {
+    padding: 0px 10px 10px 10px;
+}
+
+.title img {
+    width: 200px;
+}
+
+.shelf {
+    z-index: -1;
+    transform: translateY(95%);
+}
+
+.shelf img {
+    margin-top: -15%;
+    width:1500px;
+    height: 300px;
+}
+
+.imghvr {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.imghvr span {
+    opacity: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+.imghvr:hover span, .imghvr:focus span {
+    opacity: 1;
+}
+
+/* POPUP */
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.popup {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.accept {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reject {
+    background-color: #f44336;
+    color: white;
+}

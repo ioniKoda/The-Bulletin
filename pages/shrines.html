@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/general.css">
+        <link rel="stylesheet" href="/css/shrines.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>The Bulletin - Shrines</title>
+        <link rel="icon" type="image/x-icon" href="/assets/pushpin.gif">
+    </head>
+
+    <body>
+        <div class="shrine">
+
+            <h1>Shrines</h1>
+
+            <div class="row">
+                
+                <div class="title">
+                    <img src="/assets/shrines/tloup1.jpg" style="width: 203px; height: 264px; object-fit: cover; object-position: 0 100%;" onclick="openPopup()">
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/lain.jpg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/ghibli.png" style="width: 203px; height: 264px; object-fit: cover; object-position: 70%;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/lbp.jpeg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shelf">
+                <img src="/assets/shrines/shelf.png">
+            </div>
+
+            <div class="row">
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/minecraft.jpeg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/wlfgrl.jpg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/spongebob.jpg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <div class="imghvr">
+                        <img src="/assets/shrines/newjersey.jpg" style="width: 203px; height: 264px; object-fit: cover;">
+                        <span>
+                            <img src="/assets/construction.gif">
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="shelf">
+                <img src="/assets/shrines/shelf.png">
+            </div>
+
+            <div class="overlay" id="popupOverlay">
+                <div class="popup">
+                    <h2>Warning!</h2>
+                    <p>The following shrine is about a game rated M (17+) by the ESRB.</p>
+                    <p>Trigger warnings include: guns, intense violence, death, gore, tragedy, strong language, suicide, allusion to sexual themes, alcohol and allusion to drugs. </p>
+                    <button class="accept" onclick="acceptAction()">Continue</button>
+                    <button class="reject" onclick="rejectAction()">Go Back</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- TLOU WARNING -->
+        <script>
+            function openPopup() {
+                document.getElementById("popupOverlay").style.display = "flex";
+            }
+
+            function acceptAction() {
+                window.location.href = "tloupt1.html";
+            }
+
+            function rejectAction() {
+                document.getElementById("popupOverlay").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
