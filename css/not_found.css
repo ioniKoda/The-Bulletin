@@ -1,0 +1,68 @@
+h1, h2, h3 {
+    font-family: 'Susu-Jahe',fallback,sans-serif;
+    margin: 10px;
+    color: #ffffff;
+    filter: drop-shadow(1px 1px 0 black) 
+      drop-shadow(-1px 1px 0 black)
+      drop-shadow(1px -1px 0 black)
+      drop-shadow(-1px -1px 0 black);
+}
+
+h1 {
+    margin-top: 60px;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    background-image: url(/assets/backgrounds/purplesparkle.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar, .container {
+    background-color:#7b68ee;
+    width: 800px;
+    border-radius: 3px;
+}
+
+.navbar {
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn, input {
+    font-family: Susu-Jahe,fallback,sans-serif;
+    height: 35px;
+    padding: 0 16px;
+}
+
+.color {
+    padding: 0 4px;
+    width: 100px;
+    margin: 0 16px;
+}
+
+.container {
+    --size: 4;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(var(--size),1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 3px;
+    padding: 3px;
+}
+
+.pixel {
+    background-color: #ffffff;
+    border-radius: 2px;
+}
