@@ -16,5 +16,5 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKO_KEY }}
           nekoweb-domain: 'kid-koda.nekoweb.org'
           nekoweb-username: 'kid-koda'
-          directory: 'pages'
+          directory: 'public'
 
