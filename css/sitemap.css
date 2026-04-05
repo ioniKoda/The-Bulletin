@@ -1,0 +1,152 @@
+@font-face {
+    font-family:Chalkiez-Regular; src:url(/assets/fonts/Chalkiez-Regular.ttf)
+}
+
+body {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/backgrounds/chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    font-size: 20px;
+    font-family: "Chalkiez-Regular", fallback, 'Courier New', Courier, monospace;
+    color: white;
+}
+
+a:visited, a:active, a:link {
+    color: #ffffff;
+    text-decoration: none
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/2/2/3;
+}
+
+.left {
+    grid-area: 1/1/2/1;
+}
+
+.right {
+    grid-area: 1/3/2/4;
+}
+
+h1 {
+    text-align: center;
+    font-size: 68px;
+}
+
+h3 {
+    margin-bottom: -10px;
+}
+
+ul {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    color: white;
+    font-family: "Chalkiez-Regular", fallback, 'Courier New', Courier, monospace;
+}
+
+#lvl0 {
+    margin-left: 52px;
+    list-style-type: "|";
+}
+
+#lvl0-1 {
+    list-style-type: "|                      |";
+    margin-left: 174px;    
+}
+
+#lvl1 {
+    margin-left: 148px;
+    list-style-type: "|-------◌";
+}
+
+#lvl2 {
+    list-style-type: "|                      |-------◌";
+    margin-left: 270px;    
+}
+
+#lvl3 {
+    list-style-type: "|                      |                      |-------◌";
+    margin-left: 392px;
+}
+
+li {
+    padding-left: 1em;
+    margin-bottom: 3px;
+    text-indent: -1em;
+    white-space: nowrap;
+}
+
+.circle, .star, .arrow, .crosshatch, .flash, .loops, .randomscribble, .thickscribble, .spiralscribble, .thinscribble, .vertscribble {
+    position: absolute;
+}
+
+.circle {
+    transform: rotate(15deg) translate(155px, -55px);
+}
+
+.star {
+    transform: rotate(10deg) translate(40px, 260px);
+}
+
+.arrow {
+    transform:  translate(170px, 150px)
+}
+
+.crosshatch {
+    transform: translate(120px, 460px)
+}
+
+.flash {
+    transform: translate(50px, 10px)
+}
+
+.loops {
+    transform: rotate(29deg) translate(320px, 650px)
+}
+
+.randomscribble {
+    transform: rotate(-20deg) translate(-50px, 150px)
+}
+
+.spiralscribble {
+    transform: translate(-250px, 400px)
+}
+
+.thickscribble {
+    transform: rotate(100deg) translate(575px, -200px)
+}
+
+.thinscribble {
+    transform: translate(-10px, 850px)
+}
+
+.vertscribble {
+    transform: rotate(50deg) translate(-50px, 100px)
+}
