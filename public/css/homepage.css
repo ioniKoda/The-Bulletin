@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     max-height: 100vh;
     overflow: scroll;
-    background-image: url(/assets/backgrounds/corkboard-texture.jpg);
+    background-image: url(../assets/backgrounds/corkboard-texture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

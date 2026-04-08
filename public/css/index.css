@@ -5,7 +5,7 @@ body {
     justify-content: center;
     overflow-x: hidden;
     overflow-y: scroll;
-    background-image: url(/assets/backgrounds/blue.jpg);
+    background-image: url(../assets/backgrounds/blue.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

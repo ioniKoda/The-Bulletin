@@ -1,5 +1,5 @@
 @font-face {
-    font-family:Chalkiez-Regular; src:url(/assets/fonts/Chalkiez-Regular.ttf)
+    font-family:Chalkiez-Regular; src:url(../assets/fonts/Chalkiez-Regular.ttf)
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     overflow: scroll;
     margin: 0;
     padding: 0;
-    background-image: url(/assets/backgrounds/chalkboard.jpg);
+    background-image: url(../assets/backgrounds/chalkboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

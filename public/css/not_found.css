@@ -18,7 +18,7 @@ h2 {
 }
 
 body {
-    background-image: url(/assets/backgrounds/purplesparkle.jpg);
+    background-image: url(../assets/backgrounds/purplesparkle.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .btn, input {
-    font-family: Susu-Jahe,fallback,sans-serif;
+    font-family: 'Susu-Jahe',fallback,sans-serif;
     height: 35px;
     padding: 0 16px;
 }

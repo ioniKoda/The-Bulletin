@@ -1,11 +1,11 @@
 @font-face {
-    font-family:Chomsky;src: url(/assets/fonts/Chomsky.otf);
+    font-family:Chomsky;src: url(../assets/fonts/Chomsky.otf);
 }
 
 body {
   display: block;
   margin: 0 auto;
-  background-image: url(/assets/backgrounds/bluepaper.jpg);
+  background-image: url(../assets/backgrounds/bluepaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

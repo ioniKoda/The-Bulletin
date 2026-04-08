@@ -3,7 +3,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url(/assets/backgrounds/grid.jpg);
+	background-image: url(../assets/backgrounds/grid.jpg);
 	font-family: "Susu-Jahe",fallback,sans-serif;
 }
 
@@ -39,7 +39,7 @@ h3 {
 .vendingmachine {
 	width: 401px;
 	height: 701px;
-	background-image: url(/assets/cliques/fizzy/machine.png);
+	background-image: url(../assets/cliques/fizzy/machine.png);
 }
 
 .vend {
@@ -56,7 +56,7 @@ h3 {
 	justify-content: space-evenly;
 	height: 100px;
 	width: 230px;
-	background-image: url(/assets/cliques/fizzy/shelf.png);
+	background-image: url(../assets/cliques/fizzy/shelf.png);
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
@@ -68,15 +68,15 @@ h3 {
 /* CD */
 
 .cdrow1x {
-	background-image: url(/assets/cliques/cds/albumshelf1x.png);
+	background-image: url(../assets/cliques/cds/albumshelf1x.png);
 }
 
 .cdrow2x {
-	background-image: url(/assets/cliques/cds/albumshelf2x.png);
+	background-image: url(../assets/cliques/cds/albumshelf2x.png);
 }
 
 .cdrow3x{
-	background-image: url(/assets/cliques/cds/albumshelf3x.png);
+	background-image: url(../assets/cliques/cds/albumshelf3x.png);
 }
 
 .cdrow1x, .cdrow2x, .cdrow3x {

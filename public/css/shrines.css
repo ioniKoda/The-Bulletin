@@ -4,7 +4,7 @@ body {
     max-height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url(/assets/backgrounds/wallpaper.jpg);
+    background-image: url(../assets/backgrounds/wallpaper.jpg);
     background-attachment: fixed;
     background-position: 50% 50%;
     font-family:"Susu-Jahe",fallback,sans-serif;
