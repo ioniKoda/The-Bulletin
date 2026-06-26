@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/homepage.css">
+        <link rel="stylesheet" href="../css/chattable.css">
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,7 +92,10 @@
                 <div class="log-table">
                     <div class="scroll-update-log">
                         <table class="updates">
-
+                            <tr>
+                                <td class="date">[06/26/2026]</td>
+                                <td class="entry">Fixed Chattable CSS. Added more mutuals' buttons, check them out! Added Web Graphics page.</td>
+                            </tr>
 
                             <tr>
                                 <td class="date">[04/07/2026]</td>
@@ -100,12 +104,12 @@
 
                             <tr>
                                 <td class="date">[01/07/2026]</td>
-                                <td class="entry">Added new mutual's buttons. Added new CDWorld CD in Cliques. Updated vinyl collection in Music. Fixed bug that would cut off the left side of the page in smaller viewports on multiple pages (hopefully...). Re-styled Code.</td>
+                                <td class="entry">Added new mutuals' buttons. Added new CDWorld CD in Cliques. Updated vinyl collection in Music. Fixed bug that would cut off the left side of the page in smaller viewports on multiple pages (hopefully...). Re-styled Code.</td>
                             </tr>
                             
                             <tr>
                                 <td class="date">[11/13/2025]</td>
-                                <td class="entry">Added new mutual's buttons to Mutuals page. Added new beer review to Brews page. Fixed resolution issue on CDWorld clique entries. New Blog post. Fixed index entry text for Firefox (hopefully).</td>
+                                <td class="entry">Added new mutuals' buttons to Mutuals page. Added new beer review to Brews page. Fixed resolution issue on CDWorld clique entries. New Blog post. Fixed index entry text for Firefox (hopefully).</td>
                             </tr>
 
                             <tr>
@@ -181,10 +185,12 @@
                 <h2 class="todotxt">To Do:</h2>
                 <ul class="todoitem">
                     <li>Build TLOU shrine</li>
-                    <li><s>Build Guestbook page</s></li>
+                    <li>Fix 404 CSS bug</li>
                     <li>Alt text for all images</li>
-                    <li><s>Optimize code and images for faster load time</s></li>
                     <li>Make code compliant to accessibility standards</li>
+                    <li><s>Fix Chattable CSS</s></li>
+                    <li>Fix custom cursors (not showing up on Neocities)</li>
+                    <li>Put go back/home buttons on each page</li>
                 </ul>
             </div>
 
@@ -247,14 +253,14 @@
                 <a class="sitemaptxt" href="sitemap.html">Sitemap</a>
             </div>
 
-            <div class="item buttons">
+            <div class="item webgraphics">
                 <img 
                 src="../assets/homepage/button.png"
-                alt="A pinback button that reads 'I heart buttons'"
+                alt="A pinback button that reads 'I heart web graphics.'"
                 height="200px"
                 >
 
-                <a class="buttonstxt">Buttons</a>
+                <a class="webgraphicstxt" href="webgraphics.html">Web Graphics</a>
             </div>
 
             <div class="item stickerbank">
@@ -381,7 +387,7 @@
                     <iframe src='https://iframe.chat/embed?chat=39730038' id='chattable' frameborder='none' height="320px" width="210px"></iframe>
                     <script>
                         chattable.initialize({
-                        stylesheet : "chattable.css"
+                        stylesheet : "../css/chattable.css"
                         });
                     </script>
                 </div>
